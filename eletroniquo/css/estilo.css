@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.bannerName {
+    align-items: center;
+   position: relative;
+   display: inline-block;
+}
+
+#navegacao {
+    margin-left: auto;
+    list-style: none;
+    margin-right: 100px;
+}
+
+
+
+.container {
+    
+    width: 100%;
+    border: 1px solid rgba(0,0,0, 0.3);
+    border-radius: 5px;
+    display: inline-block;
+
+}
+
+.container img { 
+    width: 100%;
+    display: inline;
+    background-blend-mode: multiply;
+
+}
+
+
+.row {
+
+    display: inline;
+}
+
+.lista {
+    margin: 10%;
+    margin-bottom: 5%;
+}
+
+footer  {
+    display: flex;
+    text-align: center;
+    text-decoration-color: aqua;
+    text-decoration: solid;
+    width: 100%;
+}
+
+footer p {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.produto figcaption {
+    width: 100px
+}
+
+.legenda {
+    visibility: hidden;
+}
